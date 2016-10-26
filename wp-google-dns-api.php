@@ -5,9 +5,19 @@
  * @package WP-GoogleDNS-API
  */
 
+/*
+* Plugin Name: WP Google DNS API
+* Plugin URI: https://github.com/wp-api-libraries/wp-google-dns-api
+* Description: Perform API requests to Google DNS in WordPress.
+* Author: imFORZA
+* Version: 1.0.0
+* Author URI: https://www.imforza.com
+* GitHub Plugin URI: https://github.com/wp-api-libraries/wp-google-dns-api
+* GitHub Branch: master
+*/
+
 /* Exit if accessed directly. */
 if ( ! defined( 'ABSPATH' ) ) { exit; }
-
 
 /* Check if class exists. */
 if ( ! class_exists( 'GoogleDnsAPI' ) ) {
