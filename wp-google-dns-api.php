@@ -1,8 +1,9 @@
 <?php
 /**
- * WP-GoogleDNS-API (https://developers.google.com/speed/public-dns/docs/dns-over-https)
+ * WP-GoogleDNS-API
  *
- * @package WP-GoogleDNS-API
+ * @link https://developers.google.com/speed/public-dns/docs/dns-over-https API Docs
+ * @package WP-API-Libraries\WP-Google-DNS-API
  */
 
 /*
@@ -24,6 +25,8 @@ if ( ! class_exists( 'GoogleDnsAPI' ) ) {
 
 	/**
 	 * GoogleDNS API Class.
+	 *
+	 * @link https://developers.google.com/speed/public-dns/docs/dns-over-https API Docs
 	 */
 	class GoogleDnsAPI {
 
